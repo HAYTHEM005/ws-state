@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import './App.css';
 import photo from './photo.jpg';
 import  Navcom  from  './Nav.js';
-
+import Photomap from './Photomap.js'
 class App extends Component {
   constructor()
   {
@@ -10,8 +10,8 @@ class App extends Component {
     this.state={
       fullName:"HAYTHEM",
       imgSrc: photo,
-      bio:"je suis un ingenieur en informatique",
-      profession:"Ingenieur en informatique",
+      bio:"je suis un future ingenieur en informatique",
+      profession:"Directeur Artistique",
       shows: true,
       
     }
@@ -33,7 +33,7 @@ class App extends Component {
       </div>
     )}
     <button className='btn' onClick={() => this.setState({shows : !this.state.shows})}>Show</button>
-    
+    <Photomap />
     </div>
   
   );

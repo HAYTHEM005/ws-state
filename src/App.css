@@ -22,3 +22,12 @@ margin-left: 10%;
 .name{
     color: darkred;
 }
+.nar {
+    display: flex;
+    justify-content: center;
+}
+.mgg{
+    margin-top: 50px;
+    width: 500px;
+    height: 500px;
+}
