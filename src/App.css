@@ -1,0 +1,24 @@
+body{
+    
+background-color: khaki;
+}
+.all{
+margin-left: 10%;
+}
+
+.im{
+    width: 10%;
+    height: 10%;
+    border-radius: 50%;
+}
+.btn{background-color: rgb(32, 101, 228);
+color:rgb(255, 255, 255);
+font-size: xx-large;
+font-family: Georgia, 'Times New Roman', Times, serif;
+border-radius: 5px;
+border:0px;
+margin-left: 10%;
+}
+.name{
+    color: darkred;
+}
